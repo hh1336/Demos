@@ -260,3 +260,9 @@ paket-files/
 __pycache__/
 *.pyc
 /GetTypeDemo/Properties
+/MyAttributeTest/Properties
+/ThisDemo/Properties
+/Type的成员/Properties/AssemblyInfo.cs
+/反射案例/Properties
+/控制台反射案例/Properties/AssemblyInfo.cs
+/控制台反射案例2/Properties/AssemblyInfo.cs
