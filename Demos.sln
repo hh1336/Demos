@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AttributeDemo", "AttributeD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAttributeTest", "MyAttributeTest\MyAttributeTest.csproj", "{29238E6F-274B-4D0C-830C-A8B4B58F3B21}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "重载运算符", "重载运算符", "{F0D0D2EF-0CBB-4719-B3A8-EF0D09C9036C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructSumDemo", "ClassSumDemo\StructSumDemo.csproj", "{74B80E16-CD8D-4AE6-8511-8241189B143B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{29238E6F-274B-4D0C-830C-A8B4B58F3B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29238E6F-274B-4D0C-830C-A8B4B58F3B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29238E6F-274B-4D0C-830C-A8B4B58F3B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B80E16-CD8D-4AE6-8511-8241189B143B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B80E16-CD8D-4AE6-8511-8241189B143B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B80E16-CD8D-4AE6-8511-8241189B143B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B80E16-CD8D-4AE6-8511-8241189B143B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +75,7 @@ Global
 		{163043BD-2F58-484B-AE20-95312ACCFE26} = {070499B7-30EE-4BC1-BDC3-49A932033A23}
 		{68D4F00D-0B71-4AEB-973E-AE95306695E7} = {070499B7-30EE-4BC1-BDC3-49A932033A23}
 		{29238E6F-274B-4D0C-830C-A8B4B58F3B21} = {5F124501-8154-41DF-8ACF-4D58821C8F21}
+		{74B80E16-CD8D-4AE6-8511-8241189B143B} = {F0D0D2EF-0CBB-4719-B3A8-EF0D09C9036C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {264ABC7C-3891-4E9F-8481-0868D1AEE23D}

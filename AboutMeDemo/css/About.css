@@ -1,0 +1,72 @@
+body,.row {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "hkyst";
+    src: url(./../font/华康雅宋体W9.TTF);
+}
+nav.navbar {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+nav.navbar ul {
+    list-style: none;
+    margin-bottom: 0;
+}
+
+nav.navbar ul li {
+    text-align: center;
+    line-height: 5rem;
+    cursor: pointer;
+
+}
+
+nav.navbar ul li a {
+    font-family: 'hkyst';
+    color: white;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-decoration: none;
+}
+nav.navbar ul li a:hover{
+    animation: fontcolor 1s;
+}
+@keyframes fontcolor{
+    form{
+        color: white;
+    }
+    to{
+        color: aquamarine;
+    }
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.contentbody .first{
+    padding-top: 5%;
+    font-family: 'hkyst';
+    color: white;
+    width: 100%;
+    position: relative;
+    
+}
+.container-fluid .first::after{
+    position: absolute;
+    content: '';
+    background-position: 50% 50%;
+    background: url(./../images/architectural-design-architecture-buildings-2225762.jpg) no-repeat;
+    background-size: cover;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: calc(100vh);
+}
+.contentbody .first .title{
+    margin-top: 17%;
+    text-align: center;
+}
