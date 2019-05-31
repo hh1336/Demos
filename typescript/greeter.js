@@ -1,6 +1,5 @@
-"use strict";
 //引入一个单独的ts文件
-/// <reference path = "namespaceTest.ts" />
+/*/// <reference path = "namespaceTest.ts" />*/
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -14,8 +13,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-exports.__esModule = true;
-var ex = require("./export");
+// import ex =  require('./export');
 // 定义一个命名空间
 var TestNameSpace;
 (function (TestNameSpace) {
@@ -143,6 +141,5 @@ Student.staticMethod();
 //调用命名空间中的类
 var testcolor = new TestNameSpace.Color();
 console.log(testcolor.Red);
-//调用引入的dilog类的alert方法
-ex.dilog.alert();
 console.log($("div"));
+$("div").css("background", "red");

@@ -1,0 +1,9 @@
+({
+    baseUrl:"./",
+    dir:"./build",
+    paths:"greeter",
+    modules:[{
+        name:"app",
+        exclude:["jquery.min"]
+    }]
+})

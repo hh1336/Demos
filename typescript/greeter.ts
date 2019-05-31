@@ -1,8 +1,8 @@
 //引入一个单独的ts文件
-/// <reference path = "namespaceTest.ts" />
+/*/// <reference path = "namespaceTest.ts" />*/
 
 
-import ex =  require('./export');
+// import ex =  require('./export');
 
 // 定义一个命名空间
 namespace TestNameSpace{
@@ -36,7 +36,7 @@ var custmer:IPerson ={
 let user = { firstName: "张三", lastName: "李四" };
 
 // 定义一个类，支持多继承
-class Student extends Common implements IPerson,onetest.oneTest {
+class Student extends Common implements IPerson/*,onetest.oneTes*/ {
     //实现另一个文件中的属性
     TestRed: string;
     //实现接口的方法
@@ -137,7 +137,9 @@ Student.staticMethod();
 var testcolor = new TestNameSpace.Color();
 console.log(testcolor.Red);
 //调用引入的dilog类的alert方法
-ex.dilog.alert();
+//ex.dilog.alert();
 //编译时不对$号进行编译和检查，会忽略，这样我们就可以通过$来使用jQuery了
 declare var $:(selector : string) => any;
+declare var jQuery:(selector : string) => any;
 console.log($("div"))
+$("div").css("background","red");
