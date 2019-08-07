@@ -39,6 +39,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitVector32Demo", "BitVecto
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "线程安全的集合类", "线程安全的集合类\线程安全的集合类.csproj", "{A67ED3B3-6BB4-4C4B-BA9A-A8895F3AC64F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinFormDemos", "WinFormDemos", "{298C0EA5-DD39-496B-9F81-EEDB63BEE66D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstDemo", "FirstDemo\FirstDemo.csproj", "{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +101,10 @@ Global
 		{A67ED3B3-6BB4-4C4B-BA9A-A8895F3AC64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A67ED3B3-6BB4-4C4B-BA9A-A8895F3AC64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A67ED3B3-6BB4-4C4B-BA9A-A8895F3AC64F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -115,6 +123,7 @@ Global
 		{FA96606B-6632-457E-A8EF-F3D3CF70D2AF} = {E02DE788-33F8-4016-BF5D-1A60727099D5}
 		{BDC59471-DA77-4019-8A23-869EC4095576} = {E02DE788-33F8-4016-BF5D-1A60727099D5}
 		{A67ED3B3-6BB4-4C4B-BA9A-A8895F3AC64F} = {E02DE788-33F8-4016-BF5D-1A60727099D5}
+		{6C4B5D36-CBD6-4555-9A9F-241B20E3F49A} = {298C0EA5-DD39-496B-9F81-EEDB63BEE66D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {264ABC7C-3891-4E9F-8481-0868D1AEE23D}
